@@ -1,0 +1,44 @@
+{
+	"name": "hyra",
+	"version": "1.0.0",
+	"description": "Vacation Rental Script",
+	"main": "app.js",
+	"type": "module",
+	"scripts": {
+		"start": "node src/app.js",
+		"dev": "nodemon src/app.js",
+		"seed": "node src/seeders/index.js",
+		"partial-seed": "node src/seeders/partial_seeder.js"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"dependencies": {
+		"@apollo/server": "^4.10.4",
+		"@graphql-tools/merge": "^9.0.4",
+		"apollo-server-express": "^3.13.0",
+		"bcrypt": "^5.1.1",
+		"cors": "^2.8.5",
+		"cron": "^3.2.1",
+		"dayjs": "^1.11.13",
+		"dotenv": "^16.4.5",
+		"express": "^4.19.2",
+		"firebase-admin": "^13.0.1",
+		"graphql": "^16.9.0",
+		"graphql-upload": "^16.0.2",
+		"handlebars": "^4.7.8",
+		"joi": "^17.13.3",
+		"jsonwebtoken": "^9.0.2",
+		"moment": "^2.30.1",
+		"mongoose": "^8.4.1",
+		"node-cache": "^5.1.2",
+		"nodemailer": "^6.9.14",
+		"stripe": "^16.2.0"
+	},
+	"devDependencies": {
+		"eslint": "^9.10.0",
+		"eslint-config-prettier": "^9.1.0",
+		"nodemon": "^3.1.3",
+		"prettier": "^3.3.3"
+	}
+}
